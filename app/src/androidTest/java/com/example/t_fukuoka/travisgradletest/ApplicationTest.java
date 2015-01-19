@@ -14,6 +14,10 @@ import static org.junit.Assert.assertThat;
 /**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
  */
+
+/**
+ * ロジックテストのテスト中
+ */
 @RunWith(AndroidJUnit4.class)
 public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
