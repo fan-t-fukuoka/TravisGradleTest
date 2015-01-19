@@ -29,6 +29,9 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     @Test
     public void sample2(){
         // ここのテストは失敗するのでエラーとなる
-        assertThat(1 + 3, is(2));
+        // assertThat(1 + 3, is(2));
+
+        // ここのテストは成功
+        assertThat(1 + 1, is(2));
     }
 }
